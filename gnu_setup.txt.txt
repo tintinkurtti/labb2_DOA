@@ -1,0 +1,58 @@
+
+cd 'C:\Users\tinti\OneDrive\Skola\DOA\untitled1\cmake-build-release'
+datafile = 'qsr_fall.txt'
+set  title "Quick sort pivot right -- Falling series"
+set xrange [2000:20000]
+set terminal png size 600,400
+set output 'quick_sort_right_fall.png'
+set xlabel "N elements"
+set ylabel "t [s]"
+set key autotitle columnhead
+f(x) = a * (x**2) + b
+fit f(x) datafile index 0 using 1:2 via a,b
+plot datafile \
+    index 0 \
+    using 1:2:3 \
+    with errorbars\
+    title "Falling numbers" , f(x) title "O(n^2)"
+set output
+set terminal pop
+
+cd 'C:\Users\tinti\OneDrive\Skola\DOA\untitled1\cmake-build-release'
+datafile = 'ss_const.txt'
+set  title "Selection sort -- Constant series"
+set xrange [2000:20000]
+set terminal png size 600,400
+set output 'selection_const.png'
+set xlabel "N elements"
+set ylabel "t [s]"
+set key autotitle columnhead
+f(x) = a * x + b
+fit f(x) datafile index 0 using 1:2 via a,b
+plot datafile \
+    index 0 \
+    using 1:2:3 \
+    with errorbars\
+    title "Constant numbers" , f(x) title "O(n)"
+set output
+set terminal pop
+
+
+cd 'C:\Users\tinti\OneDrive\Skola\DOA\untitled1\cmake-build-release'
+datafile = 'std_ris.txt'
+set  title "std::sort -- Rising series"
+set xrange [2000:20000]
+set terminal png size 600,400
+set output 'std_sort_ris.png'
+set xlabel "N elements"
+set ylabel "t [s]"
+set key autotitle columnhead
+f(x) = a * (x*log(x)) + b
+fit f(x) datafile index 0 using 1:2 via a,b
+plot datafile \
+    index 0 \
+    using 1:2:3 \
+    with errorbars\
+    title "Rising numbers" , f(x) title "O(n*log(n))"
+set output
+set terminal pop

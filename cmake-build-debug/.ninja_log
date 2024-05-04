@@ -1,0 +1,14 @@
+# ninja log v5
+50	903	7357370083643025	CMakeFiles/laboration_2.dir/Algos.cpp.obj	214f94dc5016be5a
+45	2029	7357370094863016	CMakeFiles/laboration_2.dir/main.cpp.obj	d1c9e9af36512fa4
+32	1948	7357390304101891	build.ninja	294aadef6fbefa92
+2030	2350	7357370098023097	laboration_2.exe	bf19590c8d14b251
+79	918	7363403534566572	CMakeFiles/laboration_2.dir/Algos.cpp.obj	214f94dc5016be5a
+70	2132	7363403546616440	CMakeFiles/laboration_2.dir/main.cpp.obj	d1c9e9af36512fa4
+2133	2402	7363403549336360	laboration_2.exe	bf19590c8d14b251
+14	1893	7363403915860885	CMakeFiles/laboration_2.dir/main.cpp.obj	d1c9e9af36512fa4
+1896	2180	7363403918640847	laboration_2.exe	bf19590c8d14b251
+19	2118	7363410885466105	CMakeFiles/laboration_2.dir/main.cpp.obj	d1c9e9af36512fa4
+2120	2386	7363410888106695	laboration_2.exe	bf19590c8d14b251
+14	1804	7363414092585444	CMakeFiles/laboration_2.dir/main.cpp.obj	d1c9e9af36512fa4
+1806	2090	7363414095385500	laboration_2.exe	bf19590c8d14b251

@@ -1,0 +1,3 @@
+C:/Users/tinti/OneDrive/Skola/DOA/laboration_2/cmake-build-release/CMakeFiles/laboration_2.dir
+C:/Users/tinti/OneDrive/Skola/DOA/laboration_2/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/tinti/OneDrive/Skola/DOA/laboration_2/cmake-build-release/CMakeFiles/rebuild_cache.dir
